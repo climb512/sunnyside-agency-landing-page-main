@@ -283,11 +283,11 @@ h3 {
 .nav {
     position: absolute;
     background-color: var(--clr-white);
-    height: 100%;
     width: 90%;
     padding: 36px 45%;
     top: 110px; 
-    right: 0;
+    right: 5%;
+    left: 5%;
     transform: scale(0, 1);
     transform-origin: right;
     transition: transform 400ms ease-in-out;
@@ -296,7 +296,7 @@ h3 {
 nav ul {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     gap: 1.4rem;
 }
 
@@ -336,11 +336,43 @@ nav a:hover, nav a:focus {
     right: 1rem;
     z-index:999;
 }
+
+.inline-contact {
+    display: none;
+}
+
+.button-32 {
+  background-color: var(--clr-yellow);
+  border-radius: 999px;
+  color: var(--clr-dull-dark-blue);
+  cursor: pointer;
+  padding: 20px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 200ms;
+  width: 100%;
+  border: 0;
+  font-size: 20px;
+  font-family: var(--ff-fraunces);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
 /* -- mobile nav end -- */
-
-
-
-
 
 
 
