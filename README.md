@@ -15,14 +15,12 @@
 
 ### Things learned and decisions made
 
-- Layout: How to structure elements in html when some sections may come first on mobile but last on desktop. 
-- Defining geoetric shapes in css using border settings.
+- Layout: How to structure elements in html when some sections change ordering between mobile/desktop. 
+- Defining geoetric shapes (right triange) in css using border settings.
 - Pros and cons of using background-image: url(xyz); rather than <img src="xyz">
 - More practice with CSS-Grid and grid-areas.
 - Interesting hover effects using psuedo-elements
 - Using svg color filters
-
-
 
 ## Author
 
