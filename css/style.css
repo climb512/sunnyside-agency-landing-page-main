@@ -91,6 +91,10 @@ section {
     padding: 0 0;
 }
 
+.square-grid > .image-section {
+         aspect-ratio: 7 /6;
+}
+
 #egg {
     min-height: 326px;
     background-image: url(../images/mobile/image-transform.jpg);
