@@ -283,7 +283,7 @@ h3 {
 
 .social {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     color: var(--clr-footer-cyan);
 }
 
